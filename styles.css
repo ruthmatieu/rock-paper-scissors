@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #027368;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+header h1{
+  color: #027368;
+  text-align: center;
+  font-family: Asap, sans-serif;
+}
+
+.scoreboard {
+  border: 3px solid white;
+  width: 200px;
+  margin: 20px auto;
+  color: white;
+  font-size: 30px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: Asap, sans-serif;
+  position: relative; /*relative bc of usr-label*/
+}
+
+.badge {
+  background: #829FD9;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: Asap, sans-serif;
+}
+/*learn positioning*/
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -25px; /*pushes it to the left*/
+}
+
+#computer-label {
+  position: absolute;
+  top: 30px;
+  right: -25px; /*pushes it to the right*/
+}
+
+.result {
+  font-size: 40px;
+  color: white
+}
+
+.result p {
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+}
+
+.choices {
+  text-align: center;
+  margin: 50px 0;
+}
+.choice {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50%; /*creates white circle around img*/
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.choice img{
+  width: 80px;
+}
+
+.choice:hover{
+  background: #829FD9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*js design*/
+.green-glow {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: #31b43a;
+}
+
+.green-glow:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: #31b43a;
+}
+
+.red-glow {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: red;
+}
+
+.red-glow:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: red;
+}
+
+.gray-glow {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: gray;
+}
+
+.gray-glow:hover {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
